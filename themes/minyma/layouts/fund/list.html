@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#18181b">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <link href="/css/hamburgers.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/css/jquery-ui-slider-pips.css">
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/fund.css">
+    <meta name="google-site-verification" content="eMAzpyRtnzNkp-e7NaZryRKzMjxw9AbDBrohQToqTIs" />
+    <title>Fact Sheet - Minyma Fund</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li class="nav-left nav-item nav-minyma">
+                        <a href="/">
+                            <img class='nav-minyma-img' src="/img/logo-dark.svg" alt="Minyma">
+                        </a>
+                    </li>
+                    <button class="nav-menu-toggle hamburger hamburger--squeeze" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul class='nav-list-menu'>
+                    <li class="nav-item nav-item-menu nav-home" style='display:none;'>
+                        <a href='/'>Home</a>
+                    </li>
+                    <li class="nav-item nav-item-menu nav-fund">
+                        <a href='/project/quino/'>Quino</a>
+                    </li>
+                    <li class="nav-item nav-item-menu nav-project">
+                        <a href="/project">Projects</a>
+                    </li>
+                    <li class="nav-item nav-item-menu nav-about">
+                        <a href="/about">About</a>
+                    </li>
+                     <li class="nav-item nav-item-menu nav-contact">
+                        <a href="mailto:info@minyma-tech.com">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="title-container">
+            <h1 class="title">Future Prospects</h1>
+            <h2 class="subtitle">The Minyma Fund (Currently Halted for Quino)</h2>
+        </div>
+        <section class="fund-section">
+            <div class="fund-section-item fund-section-item-why">
+                <figure class="fund-section-image">
+                    <div class="animation" id="flow" alt=""></div>
+                </figure>
+                <div class="fund-section-text">
+                    {{ with .Page.GetPage "content1" }}
+                        {{ .Content }}
+                    {{ end }}
+                </div>
+            </div>
+            <div class="fund-section-item fund-section-item-goal">
+                <div class="fund-section-text">
+                    {{ with .Page.GetPage "content2" }}
+                        {{ .Content }}
+                    {{ end }}
+                </div>
+                <figure class="fund-section-image">
+                    <div class="animation" id="hill" alt=""></div>
+                </figure>
+            </div>
+
+            <div class="fund-section-item fund-section-item-performance">
+                <div class="fund-section-title-container">
+                    <h1 class='fund-section-title'>Performance</h1>
+                    <span class='subtitle'>Growth of hypothetical $10,000</span>
+                </div>
+                <div class="fund-section-explanation">
+                    <p class="fund-section-explanation-text">
+                        We expressed our results first of all through several years of simulations then fortified the performance of our solutions by entering the live markets. As we have presented on the chart, the live returns match the simulated ones with insignificant deviation.  
+                    </p>
+                    <div class="fund-section-explanation-items">
+                        <div class="fund-section-explanation-item">
+                            <div class="explanation-item-color explanation-color-sim"></div>
+                            <span class="explanation-item-text explanation-item-text-sim">Simulated</span>
+                        </div>
+                        <div class="fund-section-explanation-item">
+                            <div class="explanation-item-color explanation-color-live"></div>
+                            <span class="explanation-item-text explanation-item-text-live">Live</span>
+                        </div>
+                    </div>
+                </div>
+                <div class='chart-container performance-chart-container'>
+                    <canvas class='performance-chart'></canvas>
+                </div>
+            </div>
+
+            <div class="fund-section-item fund-section-item-technical-details">
+                <div class="technical-details-title">Technical details</div>
+                <div class="technical-details-content">
+                <div class="technical-details-table"></div>
+                    <div class="technical-details-text-container">
+                        <div class="technical-details-text">
+                            {{ with .Page.GetPage "table-text" }}
+                                {{ .Content }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            
+            <div class="fund-section-item fund-section-item-allocation">
+                <div class="allocation-title">Allocation</div>
+                <div class="allocation-content">
+                    <div class='allocation-chart-container'>
+                        <canvas class="allocation-chart"></canvas>
+                    </div>
+                    <div class="allocation-text-container">
+                        <div class="allocation-text">
+                            {{ with .Page.GetPage "allocation-text" }}
+                                {{ .Content }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fund-section-item fund-section-item-research-process">
+                <div class="fund-section-text">
+                    {{ with .Page.GetPage "content3" }}
+                        {{ .Content }}
+                    {{ end }}
+                </div>
+                <figure class="fund-section-image">
+                    {{ with .Page.GetPage "content3" }}
+                        <img class="lazyload" src='{{ .Param "image" }}' alt="">
+                    {{ end }}
+                </figure>
+            </div>
+            <div class="fund-section-item fund-section-item-customization">
+                <div class="fund-section-title-container">
+                    <h1 class='fund-section-title'>Customization</h1>
+                </div>
+                <div class="fund-section-explanation">
+                    <div class="fund-section-explanation-text">
+                        {{ with .Page.GetPage "customization-text" }}
+                            {{ .Content }}
+                        {{ end }}
+                    </div>
+                </div>
+                <div class='chart-container customization-chart-container-container'>
+                    <div class='customization-chart-container'>
+                        <canvas class='customization-chart'></canvas>
+                    </div>
+                    <div class="slider-container">
+                        <div class='customization-slider'></div>
+                        <p class='customization-text'>
+                            Adjust the slider to select risk profile.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="fund-section-item fund-section-item-fees">
+                <div class="fund-section-title-container fees-title-container">
+                    <h1 class='fund-section-title fees-title'>Fees</h1>
+                </div>
+                <div class="fund-section-explanation">
+                    <div class="fund-section-explanation-text fees-explanation-text" style="max-width: 532px;">
+                        {{ with .Page.GetPage "fees-text" }}
+                            {{ .Content }}
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="fees-table"></div>
+                <p class="fees-mobile-hint">Swipe to read more</p>
+            </div>
+            <div class="fund-section-item fund-section-item-about-achieving">
+                <div class="fund-section-title-container about-achieving-title-container">
+                    <h1 class='fund-section-title about-achieving-title'>About achieving these returns</h1>
+                </div>
+                <div class="fund-section-explanation">
+                    <div class="fund-section-explanation-text about-achieving-explanation-text" style="max-width: 532px;">
+                        {{ with .Page.GetPage "about-achieving-text"}}
+                            {{ .Content }}
+                        {{ end }}
+                    </div>
+                </div>
+                <a href="mailto:{{ .Site.Params.ContactEmail }}" class="invest-button">
+                    Invest with Us
+                </a>
+                <div class="about-achieving-disclaimer">
+                    {{ with .Page.GetPage "disclaimer-text" }}
+                        {{ .Content }}
+                    {{ end }}                
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-one">
+                <span class="copyright">
+                    Copyright © 2023 Minyma Inc. All rights reserved.
+                </span>
+            </div>
+            <div class="footer-two">
+                <ul class="footer-links">
+                    <li class="footer-link">
+                        <a href="/policies/legal">Legal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+<script src="https://unpkg.com/gridjs-jquery/dist/gridjs.production.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="/js/jquery-ui-slider-pips.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js"></script>
+<script src="/js/fund.js"></script>
+<script src="/js/about.js"></script>
+<script src="/js/menuToggle.js"></script>
+<script src="/js/p5.min.js"></script>
+<script src="/js/animations.js"></script>
+</html>

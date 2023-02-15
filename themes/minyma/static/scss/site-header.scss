@@ -1,0 +1,107 @@
+@import 'vars';
+
+header {
+    width: 100%;
+    // height: 44px;
+    background-color: $white;
+    color: $grey-600;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: $contentWidth-1;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: $sp-10 $sp-5;
+    @media screen and (max-width: 1417px) {
+        max-width: $contentWidth-2;
+    }
+    @media screen and (max-width: 1201px) {
+        max-width: $contentWidth-3;
+    }
+    @media screen and (max-width: 1001px) {
+        max-width: $contentWidth-4;
+    }
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        padding: $sp-3 $sp-5;
+        background-color: $grey-100;
+    }
+}
+
+.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+    background-color: $grey-900 !important;
+}
+
+.nav-minyma a {
+    display: flex;
+}
+
+.nav-minyma-img {
+    width: 40px;
+    max-height: 24px;
+}
+
+.nav-menu-toggle {
+    display: none !important;
+    @media screen and (max-width: 768px) {
+        display: block !important;
+    }
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+    ul {
+        @media screen and (max-width: 768px) {
+            display: flex;
+            width: 100%;
+        }
+    }
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    font-size: $f-2;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.nav-list-menu {
+    display: flex;
+    li {
+        margin-left: $sp-16;
+        color: $grey-500;
+        @media screen and (max-width: 768px) {
+            margin-left: 0;
+            padding: $sp-3 0;
+        }
+        &:hover {
+            color: $grey-900;
+            a {
+                background-color: transparent !important;
+            }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        display: none;
+        padding-top: $sp-3;
+    }
+}
+
+.nav-item-menu {
+    margin-left: $sp-8;
+}

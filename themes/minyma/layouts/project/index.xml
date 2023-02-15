@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/research/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>U.S. Stocks Drop From Record Highs; Dollar Falls: Markets Wrap</title>
+      <link>http://example.org/research/test/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/test/</guid>
+      <description>Once a taxonomy is defined at the site level, any piece of content can be assigned to it, regardless of content type or content section.
+Add Taxonomies to Content Assigning content to a taxonomy is done in the front matter. Simply create a variable with the plural name of the taxonomy and assign all terms you want to apply to the instance of the content type.</description>
+    </item>
+    
+    <item>
+      <title>yoooo</title>
+      <link>http://example.org/research/test2-copy-copy-copy/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/test2-copy-copy-copy/</guid>
+      <description>Alright </description>
+    </item>
+    
+    <item>
+      <title>yoooo</title>
+      <link>http://example.org/research/test2-copy-copy/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/test2-copy-copy/</guid>
+      <description>Alright </description>
+    </item>
+    
+    <item>
+      <title>yoooo</title>
+      <link>http://example.org/research/test2-copy/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/test2-copy/</guid>
+      <description>Alright </description>
+    </item>
+    
+    <item>
+      <title>yoooo</title>
+      <link>http://example.org/research/test2/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/test2/</guid>
+      <description>Alright </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+---
+label: Person
+hide_body: false
+fields:
+- type: text
+  name: member_title
+  label: member_title
+  description: CEO, Janitor, etc.
+- type: text
+  name: member_name
+  label: member_name
+- type: file
+  name: image
+  label: image
+  description: Square (e.g. 200x200)
+pages:
+- content/about/team/antal-mate.md
+- content/about/team/bokor-zalan.md
+- content/about/team/ravasz-tamas.md

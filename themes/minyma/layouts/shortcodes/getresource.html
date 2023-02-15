@@ -1,0 +1,7 @@
+{{ $rscName := .Get "src" }}
+{{ $rsc := $.Page.Resources.GetMatch $rscName }}
+{{ if $rsc }}
+{{ $rsc }}
+{{ else }}
+BROKEN IMAGE LINK
+{{ end }}

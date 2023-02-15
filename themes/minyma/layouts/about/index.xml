@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/about/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://example.org/about/content1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/content1/</guid>
+      <description>Why the Minyma Fund? The Minyma Fund offers simplified hedging and high returns of capital with tailored risk-return ratio based on the client’s risk appetite by customizing the combination of lower and higher risk.
+Key benefits:
+ Market neutral Multistrategical investment Simple risk-reward customization  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/about/content2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/content2/</guid>
+      <description>Fund Structure Our fund consists of two investment categories each having their own strategies and approaches.
+The first one is a portfolio of well-diversified and uncorrelated trading algorithms which ensure the possibility of achieving exceptional returns compared to standard hedge funds and investment firms.
+The second category of our fund follows traditional investing methodologies. These long-term investments act as a hedging tool for the potential short-term losses of our algorithms.</description>
+    </item>
+    
+  </channel>
+</rss>

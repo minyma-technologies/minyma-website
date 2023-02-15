@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "Equities",
+        "Size": 0.335
+    },
+    {
+        "Name": "Bonds",
+        "Size": 0.061
+    },
+    {
+        "Name": "ETFs",
+        "Size": 0.34
+    },
+    {
+        "Name": "Equity Algorithms",
+        "Size": 0.2
+    },
+    {
+        "Name": "Cryptocurrency Algorithms",
+        "Size": 0.051
+    },
+    {
+        "Name": "Commodity Algorithms",
+        "Size": 0.011
+    }
+]

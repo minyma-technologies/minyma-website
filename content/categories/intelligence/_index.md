@@ -1,0 +1,3 @@
++++
+description = "Human computational power has limits. We aim to address this issue through the optimization of intelligent systems, training it to find faster and more efficient solutions. As our access to data widens exponentially, the necessity of processing it effectively becomes obvious. With the continuous increase of processing power, the instruments of devising and building complex problem-solving solutions are at our fingertips."
++++

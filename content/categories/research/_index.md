@@ -1,0 +1,3 @@
++++
+description = "The aim of scientific research is to broaden our knowledge. It tends to get increasingly distracted from its original goal. Its dependency on exterior support opens it up to malicious influence. Today’s research tends to be a subordinate and often dependent of financial gain. We want to gradually address this situation by providing a platform that no longer connives profit, but resolve."
++++

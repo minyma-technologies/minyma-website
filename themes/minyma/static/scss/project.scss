@@ -1,0 +1,295 @@
+@import 'vars';
+@import 'base.scss';
+@import 'site-header.scss';
+
+body {
+    color: $grey-900;
+}
+
+html, body {
+    height: auto;
+}
+
+// about
+
+.title-container {
+    max-width: $contentWidth-1;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: $sp-16;
+    margin-bottom: $sp-8;
+    padding: 0 $sp-5;
+    @media screen and (max-width: 1417px) {
+        max-width: $contentWidth-2;
+    }
+    @media screen and (max-width: 1201px) {
+        max-width: $contentWidth-3;
+    }
+    @media screen and (max-width: 1001px) {
+        max-width: $contentWidth-4;
+    }
+    @media screen and (max-width: 768px) {
+        margin-top: $sp-8;
+        margin-bottom: $sp-6;   
+    }
+}
+
+.title {
+    color: $grey-900;
+    font-size: $f-8;
+    text-align: left;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.project-category-list {
+    max-width: $contentWidth-1;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 $sp-5;
+    margin-bottom: $sp-8;
+    .project-category-item {
+        margin-right: $sp-8;
+        text-transform: uppercase;
+        font-size: $f-2;
+        letter-spacing: 0.04em;
+        font-weight: 500;
+        color: $grey-600;
+        a {
+            color: $blue-500;
+            &:hover {
+                color: $blue-700;
+            }
+        }
+    }
+    @media screen and (max-width: 1417px) {
+        max-width: $contentWidth-2;
+    }
+    @media screen and (max-width: 1201px) {
+        max-width: $contentWidth-3;
+    }
+    @media screen and (max-width: 1001px) {
+        max-width: $contentWidth-4;
+    }
+
+}
+
+.category-description-container {
+    max-width: $contentWidth-1;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 $sp-5;
+    font-size: $f-3;
+    color: $grey-700;
+    margin-bottom: $sp-8;
+    .category-description {
+        max-width: $c-1;
+    }
+    @media screen and (max-width: 1417px) {
+        max-width: $contentWidth-2;
+    }
+    @media screen and (max-width: 1201px) {
+        max-width: $contentWidth-3;
+    }
+    @media screen and (max-width: 1001px) {
+        max-width: $contentWidth-4;
+    }
+
+}
+
+.project-content-container {
+    max-width: $contentWidth-1 + $sp-4;;
+    padding: 0 $sp-5;
+    margin: 0 auto;
+    @media screen and (max-width: 1417px) {
+        max-width: $contentWidth-2 + $sp-4;
+    }
+    @media screen and (max-width: 1201px) {
+        max-width: $contentWidth-3 + $sp-4;
+    }
+    @media screen and (max-width: 1001px) {
+        max-width: $contentWidth-4 + $sp-4;
+    }
+    @media screen and (max-width: 768px) {
+        max-width: none;
+        width: 100%;
+    }
+}
+
+
+.generic-posts-container {
+    margin-top: $sp-5;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    @media screen and (max-width: 768px) {
+        justify-content: space-between;
+    }
+    @media screen and (max-width: 600px) {
+        justify-content: center;
+    }
+}
+
+.generic-post-container {
+    border-radius: 7px;
+    width: $c-4 - $sp-6;
+    margin-bottom: $sp-4;
+    margin-right: $sp-2;
+    margin-left: $sp-2;
+    @media screen and (max-width: 1417px) {
+        max-width: $c-3 + $sp-4;
+    }
+    @media screen and (max-width: 1200px) {
+        max-width: $c-3 - $sp-5;
+    }
+    @media screen and (max-width: 1000px) {
+        max-width: $c-3 + $sp-6;
+    }
+    @media screen and (max-width: 768px) {
+        margin-right: 0;
+        margin-left: 0;
+        max-width: none;
+        width: 48.65%;
+    }
+    @media screen and (max-width: 600px) {
+        max-width: none;
+        width: 100%;
+    }
+}
+
+.post-description {
+    font-size: $f-3;
+    letter-spacing: 0.015em;
+    font-weight: 400;
+}
+
+.generic-post-image-container {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-color: transparent;
+    overflow: hidden;
+    @media screen and (max-width: 1200px) {
+        height: 280px;
+    }
+    @media screen and (max-width: 1000px) {
+        height: 230px;
+    }
+}
+
+.generic-post-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+
+.generic-post-text-container {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: $grey-100;
+    padding: $sp-8;
+    min-height: 200px;
+    @media screen and (max-width: 1200px) {
+        min-height: 240px;
+    }
+    @media screen and (max-width: 600px) {
+        min-height: 0;
+        padding: $sp-6;
+    }
+}
+
+.generic-post-category {
+    color: $grey-500;
+}
+
+.generic-post-title {
+    font-size: $f-4;
+    margin-bottom: $sp-4;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.generic-post-description {
+    color: $grey-700;
+}
+
+// footer
+
+footer {
+    // background: linear-gradient(263.97deg, $grey-50 0%, $grey-100 100%);
+    width: 100%;
+    display: flex;
+    padding: $sp-6;
+    margin-top: $sp-12;
+    // border-top: 1px solid $grey-400;
+}
+
+.footer-content {
+    width: $contentWidth-1;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 $sp-5;
+    justify-content: space-between;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+    @media screen and (max-width: 1417px) {
+        max-width: $contentWidth-2;
+    }
+    @media screen and (max-width: 1201px) {
+        max-width: $contentWidth-3;
+    }
+    @media screen and (max-width: 1001px) {
+        max-width: $contentWidth-4;
+    }
+}
+
+.copyright {
+    font-size: $f-1;
+    letter-spacing: 1.5px;
+    color: $grey-500;
+    text-transform: uppercase;
+}
+
+.footer-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-two {
+    @media screen and (max-width: 768px) {
+        margin-top: $sp-6;
+        width: 100%;
+    }
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+        justify-content: space-between;
+    }
+}
+
+.footer-link {
+    margin-left: $sp-10;
+    font-size: $f-1;
+    letter-spacing: 1.5px;
+    color: $grey-600;
+    text-transform: uppercase;
+    @media screen and (max-width: 1001px) {
+        margin-left: $sp-6;
+    }
+    @media screen and (max-width: 768px) {
+        margin-left: 0;
+    }
+}

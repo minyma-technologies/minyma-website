@@ -1,0 +1,832 @@
+[
+  {
+    "Date": "2022-01-03",
+    "Balance": 10352.434486341524,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-04",
+    "Balance": 10425.81461899514,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-05",
+    "Balance": 10251.629375928162,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-06",
+    "Balance": 10062.15974304947,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-07",
+    "Balance": 10448.756615586688,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-10",
+    "Balance": 11151.808340415962,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-11",
+    "Balance": 11041.289091982542,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-12",
+    "Balance": 11375.502394350688,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-13",
+    "Balance": 11396.71537548677,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-14",
+    "Balance": 11335.796528011342,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-17",
+    "Balance": 11407.590706787403,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-18",
+    "Balance": 11393.254971286524,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-19",
+    "Balance": 11871.452883030805,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-20",
+    "Balance": 12308.599551751895,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-21",
+    "Balance": 11909.146347127895,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-24",
+    "Balance": 11936.411327963486,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-25",
+    "Balance": 11926.458767453125,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-26",
+    "Balance": 11287.753117282346,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-27",
+    "Balance": 11227.513851401225,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-28",
+    "Balance": 11396.62040023,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-01-31",
+    "Balance": 10512.882645326317,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-01",
+    "Balance": 10245.531631131118,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-02",
+    "Balance": 10184.338131803112,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-03",
+    "Balance": 9990.634018593004,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-04",
+    "Balance": 9661.847265769235,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-07",
+    "Balance": 9409.92293463336,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-08",
+    "Balance": 9293.979172473779,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-09",
+    "Balance": 9584.023666875712,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-10",
+    "Balance": 9504.490423436151,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-11",
+    "Balance": 9420.672980516343,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-14",
+    "Balance": 9333.31336700305,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-15",
+    "Balance": 9590.50697334213,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-16",
+    "Balance": 9791.001822289267,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-17",
+    "Balance": 9668.838231871414,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-18",
+    "Balance": 9235.39860773431,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-21",
+    "Balance": 9045.050619784317,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-22",
+    "Balance": 9315.297263860606,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-23",
+    "Balance": 9387.118857930938,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-24",
+    "Balance": 9681.163035499925,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-25",
+    "Balance": 9152.910816188063,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-02-28",
+    "Balance": 9532.371963771911,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-01",
+    "Balance": 9679.342114155945,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-02",
+    "Balance": 9785.998220441115,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-03",
+    "Balance": 9902.978010554916,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-04",
+    "Balance": 10054.442317661495,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-07",
+    "Balance": 9708.430348608052,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-08",
+    "Balance": 9047.858445356032,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-09",
+    "Balance": 8951.32452654017,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-10",
+    "Balance": 8988.485331939231,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-11",
+    "Balance": 9607.372895642056,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-14",
+    "Balance": 10168.05967942741,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-15",
+    "Balance": 10148.19003064064,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-16",
+    "Balance": 10328.715746673604,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-17",
+    "Balance": 10707.513707401627,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-18",
+    "Balance": 10467.403210697164,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-21",
+    "Balance": 10345.037394276918,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-22",
+    "Balance": 10347.8211626511,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-23",
+    "Balance": 10133.139029463791,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-24",
+    "Balance": 10520.714006462893,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-25",
+    "Balance": 10021.69438492993,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-28",
+    "Balance": 10165.24786493629,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-29",
+    "Balance": 10039.399437149603,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-30",
+    "Balance": 10232.272466325965,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-03-31",
+    "Balance": 10939.057582404721,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-01",
+    "Balance": 11068.040024579193,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-04",
+    "Balance": 10826.711172966403,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-05",
+    "Balance": 10474.37757990344,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-06",
+    "Balance": 10623.509689078483,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-07",
+    "Balance": 10696.554931668597,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-08",
+    "Balance": 10868.508795676049,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-11",
+    "Balance": 11051.23213530721,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-12",
+    "Balance": 11145.850535552088,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-13",
+    "Balance": 11502.0725584712,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-14",
+    "Balance": 11362.49606018764,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-15",
+    "Balance": 10845.925928385044,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-18",
+    "Balance": 11302.349014617164,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-19",
+    "Balance": 10875.460826363413,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-20",
+    "Balance": 10615.995703016508,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-21",
+    "Balance": 10556.307864910794,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-22",
+    "Balance": 10594.111506248566,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-25",
+    "Balance": 10649.628984361612,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-26",
+    "Balance": 10311.860296832303,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-27",
+    "Balance": 10717.371065694979,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-28",
+    "Balance": 11101.013082927691,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-04-29",
+    "Balance": 11362.247384236527,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-02",
+    "Balance": 11076.03462781019,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-03",
+    "Balance": 11504.088852018423,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-04",
+    "Balance": 11604.15132081204,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-05",
+    "Balance": 11590.875210745833,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-06",
+    "Balance": 11425.132555491515,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-09",
+    "Balance": 11470.03011490863,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-10",
+    "Balance": 11322.088221438185,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-11",
+    "Balance": 11080.11022774375,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-12",
+    "Balance": 11549.416549409918,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-13",
+    "Balance": 11912.306214241633,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-16",
+    "Balance": 11791.713420804937,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-17",
+    "Balance": 11163.244812673584,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-18",
+    "Balance": 11029.032363472606,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-19",
+    "Balance": 10659.168639629712,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-20",
+    "Balance": 10919.20362654154,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-23",
+    "Balance": 11747.221729500445,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-24",
+    "Balance": 11465.828099912702,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-25",
+    "Balance": 11709.38824331378,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-26",
+    "Balance": 11881.96264830238,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-27",
+    "Balance": 12031.320095175177,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-30",
+    "Balance": 12176.089619983391,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-05-31",
+    "Balance": 12656.086844547008,
+    "Simulated": "True"
+  },
+  {
+    "Date": "2022-06-01",
+    "Balance": 12205.213210935437,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-02",
+    "Balance": 12656.086844547008,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-03",
+    "Balance": 12422.761299592072,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-06",
+    "Balance": 12414.779724362405,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-07",
+    "Balance": 12537.280343379663,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-08",
+    "Balance": 12492.858992926433,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-09",
+    "Balance": 12094.299393631449,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-10",
+    "Balance": 11691.846315530956,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-13",
+    "Balance": 11200.891035954286,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-14",
+    "Balance": 11115.863544393676,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-15",
+    "Balance": 11305.48018106373,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-16",
+    "Balance": 10971.83070133682,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-17",
+    "Balance": 11080.265099859495,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-20",
+    "Balance": 11084.158543463987,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-21",
+    "Balance": 11412.469762674253,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-22",
+    "Balance": 11448.062214235415,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-23",
+    "Balance": 11635.479148199613,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-24",
+    "Balance": 11841.863366553087,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-27",
+    "Balance": 11744.430394443783,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-28",
+    "Balance": 11513.884180928699,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-29",
+    "Balance": 11367.750418017868,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-06-30",
+    "Balance": 11156.918885669553,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-01",
+    "Balance": 11193.258531602365,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-04",
+    "Balance": 11195.366949272804,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-05",
+    "Balance": 11035.277013044471,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-06",
+    "Balance": 11083.872649610174,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-07",
+    "Balance": 11418.165304705683,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-08",
+    "Balance": 11374.345566021104,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-11",
+    "Balance": 11377.91121776218,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-12",
+    "Balance": 11417.416596690335,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-13",
+    "Balance": 11515.208108750758,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-14",
+    "Balance": 11482.317880803328,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-15",
+    "Balance": 11673.12183895159,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-18",
+    "Balance": 11799.64877660947,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-19",
+    "Balance": 12027.716424967886,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-20",
+    "Balance": 12112.615749628292,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-21",
+    "Balance": 12004.453287756485,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-22",
+    "Balance": 11824.258141486735,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-25",
+    "Balance": 11775.153911837848,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-26",
+    "Balance": 11587.789444988386,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-27",
+    "Balance": 11851.893684930375,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-28",
+    "Balance": 11954.087339281523,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-07-29",
+    "Balance": 12064.94179007159,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-01",
+    "Balance": 12094.244198437953,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-02",
+    "Balance": 12125.99853359193,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-03",
+    "Balance": 12146.148088113581,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-04",
+    "Balance": 12135.28343524889,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-05",
+    "Balance": 12276.995035290998,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-08",
+    "Balance": 12736.170106966738,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-09",
+    "Balance": 12607.103134377541,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-10",
+    "Balance": 12716.389705502608,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-11",
+    "Balance": 12727.977985658565,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-12",
+    "Balance": 12846.83038895111,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-15",
+    "Balance": 13114.340063208667,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-16",
+    "Balance": 14415.99243577182,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-17",
+    "Balance": 14216.266120033319,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-18",
+    "Balance": 14328.081998579997,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-19",
+    "Balance": 14308.461356928165,
+    "Simulated": "False"
+  },
+  {
+    "Date": "2022-08-22",
+    "Balance": 14269.170941806058,
+    "Simulated": "False"
+  }
+]

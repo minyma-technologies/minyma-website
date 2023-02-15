@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>U.S. Stocks Drop From Record Highs; Dollar Falls: Markets Wrap</title>
+      <link>http://example.org/research/test/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/test/</guid>
+      <description>Once a taxonomy is defined at the site level, any piece of content can be assigned to it, regardless of content type or content section.
+Add Taxonomies to Content Assigning content to a taxonomy is done in the front matter. Simply create a variable with the plural name of the taxonomy and assign all terms you want to apply to the instance of the content type.</description>
+    </item>
+    
+    <item>
+      <title>yoooo</title>
+      <link>http://example.org/research/test2-copy-copy-copy/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/test2-copy-copy-copy/</guid>
+      <description>Alright </description>
+    </item>
+    
+    <item>
+      <title>yoooo</title>
+      <link>http://example.org/research/test2-copy-copy/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/test2-copy-copy/</guid>
+      <description>Alright </description>
+    </item>
+    
+    <item>
+      <title>yoooo</title>
+      <link>http://example.org/research/test2-copy/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/test2-copy/</guid>
+      <description>Alright </description>
+    </item>
+    
+    <item>
+      <title>yoooo</title>
+      <link>http://example.org/research/test2/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/research/test2/</guid>
+      <description>Alright </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/about/content1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/content1/</guid>
+      <description>Why the Minyma Fund? The Minyma Fund offers simplified hedging and high returns of capital with tailored risk-return ratio based on the client’s risk appetite by customizing the combination of lower and higher risk.
+Key benefits:
+ Market neutral Multistrategical investment Simple risk-reward customization  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/about/content2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/content2/</guid>
+      <description>Fund Structure Our fund consists of two investment categories each having their own strategies and approaches.
+The first one is a portfolio of well-diversified and uncorrelated trading algorithms which ensure the possibility of achieving exceptional returns compared to standard hedge funds and investment firms.
+The second category of our fund follows traditional investing methodologies. These long-term investments act as a hedging tool for the potential short-term losses of our algorithms.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/fund/about-achieving-text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/fund/about-achieving-text/</guid>
+      <description>Producing exceptional results comes with a price in scalability. Our returns are achieved by trading on highly volatile markets like commodities, crypto currencies, and forex. We have an upper limit in the billion-dollar domain where the fund can no longer perform so well, but as of now the Minyma Fund is a great opportunity for a high profit investment.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/fund/allocation-text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/fund/allocation-text/</guid>
+      <description>ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT ALLOCATION TEXT</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/fund/content1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/fund/content1/</guid>
+      <description>Why the Minyma Fund? The Minyma Fund offers simplified hedging and high returns of capital with tailored risk-return ratio based on the client’s risk appetite by customizing the combination of lower and higher risk.
+Key benefits:
+ Market neutral Multistrategical investment Simple risk-reward customization  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/fund/content2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/fund/content2/</guid>
+      <description>Fund Structure Our fund consists of two investment categories each having their own strategies and approaches.
+The first one is a portfolio of well-diversified and uncorrelated trading algorithms which ensure the possibility of achieving exceptional returns compared to standard hedge funds and investment firms.
+The second category of our fund follows traditional investing methodologies. These long-term investments act as a hedging tool for the potential short-term losses of our algorithms.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/fund/content3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/fund/content3/</guid>
+      <description>Our research process Our fund consists of two investment categories each having their own strategies and approaches.
+The first one is a portfolio of well-diversified and uncorrelated trading algorithms which ensure the possibility of achieving exceptional returns compared to standard hedge funds and investment firms.
+The second category of our fund follows traditional investing methodologies. These long-term investments act as a hedging tool for the potential short-term losses of our algorithms.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/fund/customization-text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/fund/customization-text/</guid>
+      <description>European equities edged up to a fresh record, as investors weighed prospects for recovery and awaited the earnings season.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/fund/disclaimer-text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/fund/disclaimer-text/</guid>
+      <description>The materials on this website are for illustration and discussion purposes only and do not constitute an offering. An offering may be made only by delivery of a confidential offering memorandum to appropriate investors. Please contact our associates for an offer. PAST PERFORMANCE IS NO GUARANTEE OF FUTURE RESULTS.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/fund/fees-text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/fund/fees-text/</guid>
+      <description>We plan on charging a 2% flat fee plus a dynamic performance fee. Our dynamic fee means that we charge our clients based on how well we performed. The sole purpose of this fee structure is that we don’t have high costs if we fail to overperform the market. The table below represents our fee for a given return at the end of the year.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/fund/table-text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/fund/table-text/</guid>
+      <description>TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT TABLE TEXT</description>
+    </item>
+    
+    <item>
+      <title>Legal</title>
+      <link>http://example.org/policies/legal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/policies/legal/</guid>
+      <description>MUMBO JUMBO</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://example.org/policies/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/policies/privacy/</guid>
+      <description>!!! :)</description>
+    </item>
+    
+    <item>
+      <title>Terms of Use</title>
+      <link>http://example.org/policies/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/policies/terms/</guid>
+      <description>turnitup</description>
+    </item>
+    
+  </channel>
+</rss>

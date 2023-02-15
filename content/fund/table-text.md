@@ -1,0 +1,4 @@
++++
+
++++
+The Minyma Fund achieves a win ratio of over 40% which accounts for the most valuable trades, thus achieving the profit factor of 1.26. Our technology has relatively short drawdown periods compared to the major indices. Though our standard deviation is higher than the benchmark on account of the competitive returns, when it is calculated on the balance change (expressed in percentage) this difference becomes negligible. To provide some insight into our risk management we present a risk of drawdown at key levels. Our Sharpe and Sortino ratios were calculated considering a 365 day trading year, with a 2% and 25% risk-free rate. In view of the market drawdowns that arose during the running period of our program we showcased a low correlation to the benchmark.

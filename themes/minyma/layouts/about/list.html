@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#18181b">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/css/about.css">
+    <link href="/css/hamburgers.min.css" rel="stylesheet">
+    <meta name="google-site-verification" content="eMAzpyRtnzNkp-e7NaZryRKzMjxw9AbDBrohQToqTIs" />
+    <title>About - Minyma Technologies</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <li class="nav-left nav-item nav-minyma">
+                        <a href="/">
+                            <img class='nav-minyma-img' src="/img/logo-dark.svg" alt="Minyma">
+                        </a>
+                    </li>
+                    <button class="nav-menu-toggle hamburger hamburger--squeeze" type="button">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul class='nav-list-menu'>
+                    <li class="nav-item nav-item-menu nav-home" style='display:none;'>
+                        <a href='/'>Home</a>
+                    </li>
+                    <li class="nav-item nav-item-menu nav-fund">
+                        <a href='/project/quino/'>Quino</a>
+                    </li>
+                    <li class="nav-item nav-item-menu nav-project">
+                        <a href="/project">Projects</a>
+                    </li>
+                    <li class="nav-item nav-item-menu nav-about">
+                        <a href="/about">About</a>
+                    </li>
+                    <li class="nav-item nav-item-menu nav-contact">
+                        <a href="mailto:info@minyma-tech.com">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="title-container">
+            <h1 class="title">About the Company</h1>
+            <h2 class="subtitle">Who are we?</h2>
+        </div>
+        <section class="about-section">
+            <div class="about-section-item about-section-item-who">
+                <figure class="about-section-image">
+                    <figure class="fund-section-image">
+                        <div class="animation" id="flow" alt=""></div>
+                    </figure>
+                </figure>
+                <div class="about-section-text">
+                    {{ with .Page.GetPage "content1" }}
+                    {{ .Content }}
+                    {{ end }}
+                </div>
+            </div>
+            <div class="about-section-item about-section-item-goal">
+                <div class="about-section-text">
+                    {{ with .Page.GetPage "content2" }}
+                    {{ .Content }}
+                    {{ end }}
+                </div>
+                <figure class="about-section-image">
+                    <figure class="about-section-image">
+                        <div class="animation" id="voronoi" alt=""></div>
+                    </figure>
+                </figure>
+            </div>
+        </section>
+        <section class="team-section">
+            <div class="team-section-item team-section-item-team">
+                <h1 class="team-section-item-title">Team</h1>
+                <div class="team-section-item-members">
+                    {{ $headless := .Site.GetPage "/about/team" }}
+                    {{ $team := $headless.Resources }}
+                    {{ range $team }}
+                    <div class="team-section-item-member">
+                        <div class="team-section-item-member-image-container">
+                            <img src='{{ .Param "image" }}' alt="" class="lazyload team-section-item-member-image">
+                        </div>
+                        <div class="team-section-item-member-about">
+                            <p class="member-title">{{ .Page.Param "member_title" }}</p>
+                            <p class="member-name">{{ .Page.Param "member_name" }}</p>
+                            <p class="member-about">
+                                {{ .Content }}
+                            </p>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="team-section-item team-section-item-board">
+                <h1 class="team-section-item-title">Advisors & Mentors</h1>
+                <div class="team-section-item-members">
+                    {{ $headless := .Site.GetPage "/about/advisory-board" }}
+                    {{ $team := $headless.Resources }}
+                    {{ range $team }}
+                    <div class="team-section-item-member">
+                        <div class="team-section-item-member-image-container">
+                            <img src='{{ .Param "image" }}' alt="" class="lazyload team-section-item-member-image">
+                        </div>
+                        <div class="team-section-item-member-about">
+                            <p class="member-title">{{ .Page.Param "member_title" }}</p>
+                            <p class="member-name">{{ .Page.Param "member_name" }}</p>
+                            <p class="member-about">
+                                {{ .Content }}
+                            </p>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-one">
+                <span class="copyright">
+                    Copyright © 2023 Minyma Inc. All rights reserved.
+                </span>
+            </div>
+            <div class="footer-two">
+                <ul class="footer-links">
+                    <li class="footer-link">
+                        <a href="/policies/legal">Legal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="/js/lazysizes.min.js"></script>
+<script src="/js/jquery.js"></script>
+<script src="/js/menuToggle.js"></script>
+<script src="/js/p5.min.js"></script>
+<script src="/js/about.js"></script>
+<script src="/js/animations.js"></script>
+
+</html>
