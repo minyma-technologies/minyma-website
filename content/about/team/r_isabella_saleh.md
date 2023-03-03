@@ -1,6 +1,6 @@
 +++
 image = "/uploads/IS.png"
-member_name = "Isabella Saleh"
+member_name = "Isabella Rawaa Saleh"
 member_title = "Social Media Manager"
 
 +++
