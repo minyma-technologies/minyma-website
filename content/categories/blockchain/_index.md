@@ -1,3 +1,3 @@
 +++
-description = "The importance of development and improvement within blockchain related technologies is no longer up for debate. The serious question is: how do we do this in a way that can beneficially impact human lives in the long run? We stand at the precipice: we can determine what direction blockchain will take in the near future. Instead of losing it to crime or control, we aim to achieve transparent but private solutions."
+description = "The importance of development and improvement within blockchain related technologies is no longer up for debate. At Minyma Technologies we did several blockchain projects and we still offer development solutions for our new clients. It is a field we like and understand, and something we like to experiment with. Check out our tech-heavy contributions to the blockchain space and reach out to us if you are interested in cooperation."
 +++
